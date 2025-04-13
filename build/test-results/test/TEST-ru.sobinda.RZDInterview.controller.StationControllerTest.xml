@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.sobinda.RZDInterview.controller.StationControllerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-04-13T15:34:20" hostname="VADIM" time="0.029">
+  <properties/>
+  <testcase name="getStationByIdOk()" classname="ru.sobinda.RZDInterview.controller.StationControllerTest" time="0.016"/>
+  <testcase name="getAllStationsOk()" classname="ru.sobinda.RZDInterview.controller.StationControllerTest" time="0.002"/>
+  <testcase name="deleteStationBad()" classname="ru.sobinda.RZDInterview.controller.StationControllerTest" time="0.002"/>
+  <testcase name="updateStationBad()" classname="ru.sobinda.RZDInterview.controller.StationControllerTest" time="0.001"/>
+  <testcase name="deleteStationOk()" classname="ru.sobinda.RZDInterview.controller.StationControllerTest" time="0.001"/>
+  <testcase name="updateStationOk()" classname="ru.sobinda.RZDInterview.controller.StationControllerTest" time="0.001"/>
+  <testcase name="addStationBad()" classname="ru.sobinda.RZDInterview.controller.StationControllerTest" time="0.001"/>
+  <testcase name="getStationByIdBad()" classname="ru.sobinda.RZDInterview.controller.StationControllerTest" time="0.001"/>
+  <testcase name="addStationOk()" classname="ru.sobinda.RZDInterview.controller.StationControllerTest" time="0.002"/>
+  <system-out><![CDATA[----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

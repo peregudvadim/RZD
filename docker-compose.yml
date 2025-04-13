@@ -1,0 +1,33 @@
+version: "3.8"
+services:
+
+  rzd-mysql:
+    image: mysql:8.0
+    container_name: rzd-mysql
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: RZD
+      MYSQL_USER: bestuser
+      MYSQL_PASSWORD: bestuser
+    volumes:
+      - ./db/changelog:/docker-entrypoint-initdb.d
+
+  rzd-service:
+    container_name: rzd-service
+    depends_on:
+      - rzd-mysql
+    build: .
+    ports:
+      - "8085:8085"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://rzd-mysql:3306/rzd?allowPublicKeyRetrieval=true&useSSL=false
+      SPRING_DATASOURCE_USERNAME: bestuser
+      SPRING_DATASOURCE_PASSWORD: bestuser
+      SPRING_JPA_HIBERNATE_DDL_AUTO: validate
+      SPRING_JPA_DATABASE_PLATFORM: org.hibernate.dialect.MySQL8Dialect
+      spring.liquibase.change-log: classpath:/db/changelog/db.changelog-master.xml
+      spring.liquibase.enabled: true
+    restart: on-failure

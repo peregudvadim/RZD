@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.sobinda.RZDInterview.controller.FullScaleControllerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-04-13T15:34:20" hostname="VADIM" time="0.046">
+  <properties/>
+  <testcase name="deleteFullScaleByIdBad()" classname="ru.sobinda.RZDInterview.controller.FullScaleControllerTest" time="0.022"/>
+  <testcase name="updateFullScaleByIdBad()" classname="ru.sobinda.RZDInterview.controller.FullScaleControllerTest" time="0.002"/>
+  <testcase name="getAll()" classname="ru.sobinda.RZDInterview.controller.FullScaleControllerTest" time="0.002"/>
+  <testcase name="getFullScaleByIBad()" classname="ru.sobinda.RZDInterview.controller.FullScaleControllerTest" time="0.003"/>
+  <testcase name="getFullScaleByIdOk()" classname="ru.sobinda.RZDInterview.controller.FullScaleControllerTest" time="0.002"/>
+  <testcase name="deleteFullScaleByIdOk()" classname="ru.sobinda.RZDInterview.controller.FullScaleControllerTest" time="0.002"/>
+  <testcase name="addFullScaleBad()" classname="ru.sobinda.RZDInterview.controller.FullScaleControllerTest" time="0.003"/>
+  <testcase name="updateFullScaleByIdOk()" classname="ru.sobinda.RZDInterview.controller.FullScaleControllerTest" time="0.003"/>
+  <testcase name="addFullScaleOk()" classname="ru.sobinda.RZDInterview.controller.FullScaleControllerTest" time="0.002"/>
+  <system-out><![CDATA[----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.545  INFO 13508 --- [    Test worker] r.s.R.controller.FullScaleController     : Запрос на удаление поезда с составами по id: 1
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.548  INFO 13508 --- [    Test worker] r.s.R.controller.FullScaleController     : Запрос на изменение поезда с составами по id: 1
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.551  INFO 13508 --- [    Test worker] r.s.R.controller.FullScaleController     : Запрос на получение всех поездов
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.554  INFO 13508 --- [    Test worker] r.s.R.controller.FullScaleController     : Запрос на получение состава поезда по id=1
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.557  INFO 13508 --- [    Test worker] r.s.R.controller.FullScaleController     : Запрос на получение состава поезда по id=1
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.560  INFO 13508 --- [    Test worker] r.s.R.controller.FullScaleController     : Запрос на удаление поезда с составами по id: 1
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.563  INFO 13508 --- [    Test worker] r.s.R.controller.FullScaleController     : Запрос на добавление нового поезда: 54785
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.566  INFO 13508 --- [    Test worker] r.s.R.controller.FullScaleController     : Запрос на изменение поезда с составами по id: 1
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.569  INFO 13508 --- [    Test worker] r.s.R.controller.FullScaleController     : Запрос на добавление нового поезда: 54785
+Окончание теста
+----------------------------------------------------------------------------------------------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

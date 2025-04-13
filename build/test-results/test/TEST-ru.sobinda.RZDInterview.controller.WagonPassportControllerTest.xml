@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.sobinda.RZDInterview.controller.WagonPassportControllerTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2025-04-13T15:34:20" hostname="VADIM" time="0.039">
+  <properties/>
+  <testcase name="getWagonPassportByNumberBad()" classname="ru.sobinda.RZDInterview.controller.WagonPassportControllerTest" time="0.019"/>
+  <testcase name="updateWagonPassportOk()" classname="ru.sobinda.RZDInterview.controller.WagonPassportControllerTest" time="0.001"/>
+  <testcase name="getWagonPassportByNumberOk()" classname="ru.sobinda.RZDInterview.controller.WagonPassportControllerTest" time="0.001"/>
+  <testcase name="addWagonPassportBad()" classname="ru.sobinda.RZDInterview.controller.WagonPassportControllerTest" time="0.001"/>
+  <testcase name="deleteWagonPassportBad()" classname="ru.sobinda.RZDInterview.controller.WagonPassportControllerTest" time="0.002"/>
+  <testcase name="getAllWagonPassportOk()" classname="ru.sobinda.RZDInterview.controller.WagonPassportControllerTest" time="0.002"/>
+  <testcase name="updateWagonPassportBad()" classname="ru.sobinda.RZDInterview.controller.WagonPassportControllerTest" time="0.002"/>
+  <testcase name="addWagonPassportOk()" classname="ru.sobinda.RZDInterview.controller.WagonPassportControllerTest" time="0.002"/>
+  <testcase name="getWagonPassportOk()" classname="ru.sobinda.RZDInterview.controller.WagonPassportControllerTest" time="0.002"/>
+  <testcase name="deleteWagonPassportOk()" classname="ru.sobinda.RZDInterview.controller.WagonPassportControllerTest" time="0.001"/>
+  <testcase name="getWagonPassportBad()" classname="ru.sobinda.RZDInterview.controller.WagonPassportControllerTest" time="0.001"/>
+  <system-out><![CDATA[----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

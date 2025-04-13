@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.sobinda.RZDInterview.service.WagonPassportServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-04-13T15:34:20" hostname="VADIM" time="0.036">
+  <properties/>
+  <testcase name="getWagonPassportByNumberBad()" classname="ru.sobinda.RZDInterview.service.WagonPassportServiceTest" time="0.029"/>
+  <testcase name="getWagonPassportByNumberOk()" classname="ru.sobinda.RZDInterview.service.WagonPassportServiceTest" time="0.002"/>
+  <testcase name="getAllWagonPassport()" classname="ru.sobinda.RZDInterview.service.WagonPassportServiceTest" time="0.001"/>
+  <testcase name="getWagonPassportOk()" classname="ru.sobinda.RZDInterview.service.WagonPassportServiceTest" time="0.001"/>
+  <testcase name="getWagonPassportBad()" classname="ru.sobinda.RZDInterview.service.WagonPassportServiceTest" time="0.002"/>
+  <system-out><![CDATA[----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+Окончание теста
+----------------------------------------------------------------------------------------------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

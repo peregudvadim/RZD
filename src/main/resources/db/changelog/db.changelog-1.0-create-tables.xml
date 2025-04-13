@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+
+    <changeSet id="2" author="admin">
+        <sql>
+            USE RZD;
+        </sql>
+    </changeSet>
+
+
+    <changeSet id="3" author="admin">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <tableExists tableName="directory_of_cargo_nomenclatures"/>
+            </not>
+        </preConditions>
+        <createTable tableName="directory_of_cargo_nomenclatures">
+            <column name="id" type="int" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="code" type="varchar(255)">
+                <constraints unique="true"/>
+            </column>
+            <column name="shipping_name" type="varchar(255)">
+                <constraints unique="true"/>
+            </column>
+            <column name="nomenclature_id" type="int"/>
+        </createTable>
+    </changeSet>
+
+
+    <changeSet id="4" author="admin">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <tableExists tableName="full_scale"/>
+            </not>
+        </preConditions>
+        <createTable tableName="full_scale">
+            <column name="id" type="int" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="composition_number" type="int">
+                <constraints unique="true"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+
+    <changeSet id="5" author="admin">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <tableExists tableName="wagon_passport"/>
+            </not>
+        </preConditions>
+        <createTable tableName="wagon_passport">
+            <column name="id" type="int" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="load_capacity" type="int"/>
+            <column name="number" type="int">
+                <constraints unique="true"/>
+            </column>
+            <column name="tare_weight" type="int"/>
+            <column name="type" type="varchar(255)"/>
+        </createTable>
+    </changeSet>
+
+
+    <changeSet id="6" author="admin">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <tableExists tableName="scale"/>
+            </not>
+        </preConditions>
+        <createTable tableName="scale">
+            <column name="id" type="int" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="cargo_weight" type="decimal(19,2)"/>
+            <column name="serial_number" type="int"/>
+            <column name="wagon_weight" type="decimal(19,2)"/>
+            <column name="wagon_number" type="int"/>
+            <column name="scale_id" type="int"/>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="7" author="admin">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <tableExists tableName="station_model"/>
+            </not>
+        </preConditions>
+        <createTable tableName="station_model">
+            <column name="id" type="int" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="station_name" type="varchar(255)">
+                <constraints unique="true"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+
+    <changeSet id="8" author="admin">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <tableExists tableName="station_entity_number"/>
+            </not>
+        </preConditions>
+        <createTable tableName="station_entity_number">
+            <column name="station_entity_id" type="int" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="number" type="int"/>
+        </createTable>
+    </changeSet>
+
+
+
+    <changeSet id="9" author="admin">
+        <addForeignKeyConstraint
+                baseTableName="directory_of_cargo_nomenclatures"
+                baseColumnNames="nomenclature_id"
+                referencedTableName="scale"
+                referencedColumnNames="id"
+                constraintName="fk_nomenclature"/>
+    </changeSet>
+
+
+    <changeSet id="10" author="admin">
+        <addForeignKeyConstraint
+                baseTableName="scale"
+                baseColumnNames="wagon_number"
+                referencedTableName="wagon_passport"
+                referencedColumnNames="id"
+                constraintName="fk_wagon_number"/>
+    </changeSet>
+
+
+    <changeSet id="11" author="admin">
+        <addForeignKeyConstraint
+                baseTableName="scale"
+                baseColumnNames="scale_id"
+                referencedTableName="full_scale"
+                referencedColumnNames="id"
+                constraintName="fk_scale_id"/>
+    </changeSet>
+
+
+    <changeSet id="12" author="admin">
+        <addForeignKeyConstraint
+                baseTableName="station_entity_number"
+                baseColumnNames="station_entity_id"
+                referencedTableName="station_model"
+                referencedColumnNames="id"
+                constraintName="fk_station_entity"/>
+    </changeSet>
+
+</databaseChangeLog>

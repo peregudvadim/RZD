@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.sobinda.RZDInterview.controller.DirectoryOfCargoNomenclaturesControllerTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2025-04-13T15:34:20" hostname="VADIM" time="0.142">
+  <properties/>
+  <testcase name="getNomenclatureByCodeBad()" classname="ru.sobinda.RZDInterview.controller.DirectoryOfCargoNomenclaturesControllerTest" time="0.105"/>
+  <testcase name="getNomenclatureByNameBad()" classname="ru.sobinda.RZDInterview.controller.DirectoryOfCargoNomenclaturesControllerTest" time="0.003"/>
+  <testcase name="deleteNomenclatureByIdBad()" classname="ru.sobinda.RZDInterview.controller.DirectoryOfCargoNomenclaturesControllerTest" time="0.003"/>
+  <testcase name="deleteNomenclatureByIdOk()" classname="ru.sobinda.RZDInterview.controller.DirectoryOfCargoNomenclaturesControllerTest" time="0.002"/>
+  <testcase name="getAllNomenclatures()" classname="ru.sobinda.RZDInterview.controller.DirectoryOfCargoNomenclaturesControllerTest" time="0.003"/>
+  <testcase name="addNomenclatureOk()" classname="ru.sobinda.RZDInterview.controller.DirectoryOfCargoNomenclaturesControllerTest" time="0.002"/>
+  <testcase name="getNomenclatureByIdOk()" classname="ru.sobinda.RZDInterview.controller.DirectoryOfCargoNomenclaturesControllerTest" time="0.003"/>
+  <testcase name="updateNomenclatureByIdBad()" classname="ru.sobinda.RZDInterview.controller.DirectoryOfCargoNomenclaturesControllerTest" time="0.002"/>
+  <testcase name="addNomenclatureBad()" classname="ru.sobinda.RZDInterview.controller.DirectoryOfCargoNomenclaturesControllerTest" time="0.002"/>
+  <testcase name="getNomenclatureByCodeOk()" classname="ru.sobinda.RZDInterview.controller.DirectoryOfCargoNomenclaturesControllerTest" time="0.002"/>
+  <testcase name="getNomenclatureByIdBad()" classname="ru.sobinda.RZDInterview.controller.DirectoryOfCargoNomenclaturesControllerTest" time="0.002"/>
+  <testcase name="getNomenclatureByNameOk()" classname="ru.sobinda.RZDInterview.controller.DirectoryOfCargoNomenclaturesControllerTest" time="0.002"/>
+  <testcase name="updateNomenclatureByIdOk()" classname="ru.sobinda.RZDInterview.controller.DirectoryOfCargoNomenclaturesControllerTest" time="0.003"/>
+  <system-out><![CDATA[----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.471  INFO 13508 --- [    Test worker] .DirectoryOfCargoNomenclaturesController : Запрос на получение товара по code: 458-854
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.486  INFO 13508 --- [    Test worker] .DirectoryOfCargoNomenclaturesController : Запрос на получение товара по shippingName: Тестовый продукт
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.490  INFO 13508 --- [    Test worker] .DirectoryOfCargoNomenclaturesController : Запрос на удаление товара по id: 1
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.493  INFO 13508 --- [    Test worker] .DirectoryOfCargoNomenclaturesController : Запрос на удаление товара по id: 1
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.496  INFO 13508 --- [    Test worker] .DirectoryOfCargoNomenclaturesController : Запрос на получение всех позиций
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.499  INFO 13508 --- [    Test worker] .DirectoryOfCargoNomenclaturesController : Запрос на добавление товара: Тестовый продукт
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.502  INFO 13508 --- [    Test worker] .DirectoryOfCargoNomenclaturesController : Запрос на получение товара по id: 1
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.506  INFO 13508 --- [    Test worker] .DirectoryOfCargoNomenclaturesController : Запрос на изменение товара по id: 1
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.509  INFO 13508 --- [    Test worker] .DirectoryOfCargoNomenclaturesController : Запрос на добавление товара: Тестовый продукт
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.512  INFO 13508 --- [    Test worker] .DirectoryOfCargoNomenclaturesController : Запрос на получение товара по code: 458-854
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.514  INFO 13508 --- [    Test worker] .DirectoryOfCargoNomenclaturesController : Запрос на получение товара по id: 1
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.517  INFO 13508 --- [    Test worker] .DirectoryOfCargoNomenclaturesController : Запрос на получение товара по shippingName: Тестовый продукт
+Окончание теста
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Начало теста
+2025-04-13 18:34:20.520  INFO 13508 --- [    Test worker] .DirectoryOfCargoNomenclaturesController : Запрос на изменение товара по id: 1
+Окончание теста
+----------------------------------------------------------------------------------------------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
