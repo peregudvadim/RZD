@@ -4,7 +4,7 @@
 
 Для gradle: `./gradlew clean build` (если пишет Permission denied тогда сначала выполните `chmod +x ./gradlew`)
 
-- После успешной сборки в папке будет находиться jar файл:`RZD-Interview-0.0.1-SNAPSHOT.jar`;
+- После успешной сборки в папке будет находиться jar файл:`RZD-0.0.1-SNAPSHOT.jar`;
 - В терминале выполнить команду по сборке images и containers: ```docker-compose up```;
 
 
